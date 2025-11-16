@@ -274,17 +274,6 @@ For complex tasks, a "team of specialists" is more effective than a single "supe
 
 *Source: https://cloud.google.com/architecture/choose-design-pattern-agentic-ai-system*
 
----
-
-### Agent Deployment and Services
-
-Deployment gives the agent a "body and legs" to operate continuously.
-
-*   **Core Needs:** An agent requires services for session history, memory persistence, logging, security, and compliance.
-*   **Deployment Options:**
-    *   **Purpose-Built Platforms:** All-in-one solutions like `Vertex AI Agent Engine`.
-    *   **Standard DevOps Infrastructure:** For more control, package the agent in a Docker container and deploy it on runtimes like `Cloud Run` or `GKE`.
-
 
 # 1.4
 
